@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { userObserver } from "./auth/firebase";
+import AuthContextProvider from "./context/AuthContextProvider";
 import AppRouter from "./router/AppRouter";
 
 const App = () => {
@@ -9,7 +10,9 @@ const App = () => {
 
   return (
     <div>
-      <AppRouter />
+      <AuthContextProvider>
+        <AppRouter />
+      </AuthContextProvider>
     </div>
   );
 };
