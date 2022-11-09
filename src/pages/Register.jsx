@@ -36,9 +36,9 @@ const Register = () => {
     <div className="flex justify-center">
       <div className="form-image hidden md:block">
         <img
-          src="https://picsum.photos/800/800"
+          src="https://images.unsplash.com/photo-1577382144834-8a80d92b925c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
           alt="sample-movie"
-          className="object-cover h-screen w-full"
+          className="object-cover h-screen w-full	"
         />
       </div>
       <div className="overflow-hidden flex-1 h-screen justify-center items-center bg-[#23242a]">
